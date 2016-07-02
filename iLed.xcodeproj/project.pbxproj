@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6000D14B1D268940007AC5F2 /* LedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6000D1491D268940007AC5F2 /* LedViewController.m */; };
+		6000D14C1D268940007AC5F2 /* LedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6000D14A1D268940007AC5F2 /* LedViewController.xib */; };
 		60AD39A81D26266100A8D19F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD39A71D26266100A8D19F /* main.m */; };
 		60AD39AB1D26266100A8D19F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD39AA1D26266100A8D19F /* AppDelegate.m */; };
 		60AD39AE1D26266100A8D19F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD39AD1D26266100A8D19F /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6000D1481D268940007AC5F2 /* LedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LedViewController.h; sourceTree = "<group>"; };
+		6000D1491D268940007AC5F2 /* LedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LedViewController.m; sourceTree = "<group>"; };
+		6000D14A1D268940007AC5F2 /* LedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LedViewController.xib; sourceTree = "<group>"; };
 		60AD39A31D26266000A8D19F /* iLed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AD39A71D26266100A8D19F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60AD39A91D26266100A8D19F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +68,9 @@
 				60AD39AC1D26266100A8D19F /* ViewController.h */,
 				60AD39AD1D26266100A8D19F /* ViewController.m */,
 				60AD39AF1D26266100A8D19F /* Main.storyboard */,
+				6000D1481D268940007AC5F2 /* LedViewController.h */,
+				6000D1491D268940007AC5F2 /* LedViewController.m */,
+				6000D14A1D268940007AC5F2 /* LedViewController.xib */,
 				60AD39B21D26266100A8D19F /* Assets.xcassets */,
 				60AD39B41D26266100A8D19F /* LaunchScreen.storyboard */,
 				60AD39B71D26266100A8D19F /* Info.plist */,
@@ -138,6 +146,7 @@
 			files = (
 				60AD39B61D26266100A8D19F /* LaunchScreen.storyboard in Resources */,
 				60AD39B31D26266100A8D19F /* Assets.xcassets in Resources */,
+				6000D14C1D268940007AC5F2 /* LedViewController.xib in Resources */,
 				60AD39B11D26266100A8D19F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				60AD39AE1D26266100A8D19F /* ViewController.m in Sources */,
 				60AD39AB1D26266100A8D19F /* AppDelegate.m in Sources */,
+				6000D14B1D268940007AC5F2 /* LedViewController.m in Sources */,
 				60AD39A81D26266100A8D19F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +310,7 @@
 				60AD39BC1D26266100A8D19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
